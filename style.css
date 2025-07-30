@@ -1,7 +1,8 @@
 
+/* General settings */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
 *{
@@ -11,17 +12,12 @@
     outline: none;
     list-style: none;
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
 }
-
-
 
 body{
     height: 100vh;
     background-color: #fdfeff;
-    /* border: solid red 1px; */
-    /* width: 80%; */
-    /* margin: 0 90%; */
+    font-family: poppins, sans-serif;
 }
 
 /* nav bar */
@@ -43,7 +39,11 @@ body{
     cursor: pointer;
 }
 
-.nav_links > ul > li:hover{
+.nav_links ul a{
+    color: #484848;
+}
+
+.nav_links > ul > li a:hover{
     color: #6d6c6c;
     transition: .5s ease;
     border-bottom: solid #6d6c6c 1px;
@@ -90,4 +90,52 @@ body{
 
 .hero_img_container img{
     width: 35rem;
+}
+
+/* About Section */
+
+
+
+.about_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 3rem;
+    margin: 5rem;
+    font-size: 1.5rem;
+    height: 10rem;
+}
+
+.about_details_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-left: 10rem;
+}
+
+.about_img img{
+    width: 25rem;
+}
+
+.details_cards{
+    display: flex;
+    gap: 5rem;
+}
+
+.card_1, .card_2{
+    border: solid #6d6c6c 2px;
+    width: 32rem;
+    height: 13rem;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3rem;
+    line-height: 1.7rem;
+    font-size: 14px;
+}
+
+.detail_note{
+    max-width: 75%;
+    text-align: center;
 }
