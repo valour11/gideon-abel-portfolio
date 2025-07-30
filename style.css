@@ -18,7 +18,7 @@
 
 body{
     height: 100vh;
-    background-color: aliceblue;
+    background-color: #fdfeff;
     /* border: solid red 1px; */
     /* width: 80%; */
     /* margin: 0 90%; */
@@ -26,7 +26,7 @@ body{
 
 /* nav bar */
 .nav_bar{
-    height: 5rem;
+    height: 1rem;
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -39,7 +39,7 @@ body{
 
 .nav_links ul{
     display: flex;
-    gap: 7rem;
+    gap: 5rem;
     cursor: pointer;
 }
 
@@ -56,7 +56,7 @@ body{
 .hero_container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 7rem;
     margin: 2.5rem 15rem;
     font-size: 2rem;
@@ -68,9 +68,10 @@ body{
     line-height: 3rem;
 }
 
-.hero_details h4, h3{
+.hero_details p{
     color: #484848;
-    font-size: 1.4rem;
+    font-size: 2rem;
+    line-height: 4rem;
 }
 
 .hero_btn_container{
@@ -84,9 +85,9 @@ body{
     border-radius: 5rem;
     outline: none;
     background-color: aliceblue;
-
+    cursor: pointer;
 }
 
 .hero_img_container img{
-    width: 60rem;
+    width: 35rem;
 }
