@@ -4,9 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 *{
     padding: 0;
@@ -15,6 +15,7 @@ html {
     outline: none;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -287,4 +288,55 @@ body{
     color: #000000;
     transition: .5s ease-in-out;
     font-size: larger;
+}
+
+/* Contact section */
+.contact_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5rem;
+    flex-direction: column;
+}
+
+.contact_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.contact_card{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 5rem;
+    border: solid 1px #6d6c6c;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.line-through {
+    width: 90%;
+    height: 2px;
+    background: #484848;
+    margin: 10px auto 0 auto;
+    border-radius: 5px;
+}
+
+.socials{
+    margin-top: -1.8rem;
+    padding: 0 3rem;
+    display: flex;
+    gap: 10px;
+    background-color: #fdfeff;
+}
+
+.socials img{
+    width: 3rem;
+    height: 3rem;
 }
