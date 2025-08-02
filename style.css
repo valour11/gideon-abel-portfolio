@@ -168,7 +168,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 5rem;
+    margin-top: -20px;
 }
 
 .exp_card_1, .exp_card_2{
@@ -176,4 +177,32 @@ body{
     width: 40rem;
     height: 20rem;
     border-radius: 10px;
+    padding: 2rem;
+}
+
+.exp_card_1 h3, .exp_card_2 h3{
+    text-align: center;
+    margin: 1rem;
+}
+
+.stack_container{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.stacks {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+.stacks img {
+    width: 24px;
+    height: 24px;
+}
+.stacks div {
+    display: flex;
+    flex-direction: column;
 }
