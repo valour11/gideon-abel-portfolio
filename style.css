@@ -4,14 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-/* @keyframes shake-forward {
-    0% { transform: translateX(0); }
-    30% { transform: translateX(8px); }
-    50% { transform: translateX(0); }
-    70% { transform: translateX(4px); }
-    100% { transform: translateX(0); }
-} */
-
+html {
+    scroll-behavior: smooth;
+}
 
 *{
     padding: 0;
