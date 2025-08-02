@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gideon Abel</title>
+    <title>Abel Gideon</title>
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,7 +20,7 @@
             <div class="nav_links">
                 <ul>
                     <li><a href="#about">About Me</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
@@ -40,19 +40,20 @@
                 <div>
                     <p>Hello, I'm</p>
                     <h1>Abel Gideon</h1>
-                    <p>Front-End Developer</p>
+                    <p>A Software Developer</p>
+                    <small>Passionate about creating useful solutions</small>
                 </div>
                 <div class="hero_btn_container">
                     <div>
-                    <button type="button">Download CV</button>
+                    <button type="button"><a href="https://drive.google.com/file/d/13PGVttIE6ztW-MGGaHXUY0J27qV4LH3E/view?usp=sharing" target="_blank">Download CV</a></button>
                     </div>
                     <div>
-                    <button type="button">Contact Info</button>
+                    <button type="button"><a href="#contact">Contact Info</a></button>
                     </div>
                 </div>
                 <div class="hero_socials">
-                    <a href=""><img src="/scr/images/icons8-linkedin.gif" alt="linkedIn profile"></a>
-                    <a href=""> <img src="/scr/images/icons8-github-logo-50.png" alt="github profile"></a>
+                    <a href="https://www.linkedin.com/in/gideon-abel-629961215" target="_blank"><img src="/scr/images/icons8-linkedin.gif" alt="linkedIn profile"></a>
+                    <a href="https://github.com/valour11" target="_blank"> <img src="/scr/images/icons8-github-logo-50.png" alt="github profile"></a>
                 </div>
             </div>
         </section>
@@ -74,7 +75,7 @@
                             <img src="/scr/images/promoted_award_winner_icon_152014.png" alt="badge icon">
                             <h3>Experience</h3>
                             <p>2+ years</p>
-                            <p>Frontend Development</p>
+                            <p>FrontEnd & BackEnd Development</p>
                         </div>
                         <div class="card_2">
                             <img src="/scr/images/validated_buyer_user_apply_done_icon_177174.png" alt="user icon">
@@ -90,12 +91,12 @@
             </div>
         </section>
 
-        <!-- Experience section -->
-        <section id="experience" 
+        <!-- Skills section -->
+        <section id="skills" 
     class="experience_container">
             <div class="section_header">
                 <p>Wanna Explore</p>
-                <h1>My Experience?</h1>
+                <h1>My Skills?</h1>
             </div>
             <div class="experience_cards_container">
                 <div class="exp_card_1">
@@ -201,7 +202,11 @@
                         <!-- projects go here -->
                         <img src="/scr/images/prjt 1.png" alt="project image">
                     </div>
-                    <h2>budibase</h2>
+                    <div class="project_details">
+                        <h2>budibase</h2>
+                        <p>A low-code platform for building internal tools quickly and efficiently, featuring user-friendly interfaces and robust data management.</p>
+                    </div>
+
                     <div class="hero_btn_container"> <!--reused button from hero section-->
                         <div>
                             <button type="button">Github</button>
@@ -216,7 +221,11 @@
                         <!-- projects go here -->
                         <img src="/scr/images/prjt 2.png" alt="project image">
                     </div>
-                    <h2>baseCamp</h2>
+                    <div class="project_details">
+                        <h2>baseCamp</h2>
+                        <p>A project management app designed to help teams organize tasks, track progress, and collaborate seamlessly in real time.</p>
+                    </div>
+                    
                     <div class="hero_btn_container">
                         <div>
                             <button type="button">Github</button>
@@ -231,7 +240,10 @@
                         <!-- projects go here -->
                         <img src="/scr/images/prjt3.png" alt="project image">
                     </div>
-                    <h2>analiza</h2>
+                    <div class="project_details">
+                        <h2>analiza</h2>
+                        <p>A data analytics dashboard that visualizes key metrics, enabling users to gain insights and make informed decisions easily.</p>
+                    </div>
                     <div class="hero_btn_container">
                         <div>
                             <button type="button">Github</button>
@@ -243,9 +255,9 @@
                 </div>
             </div>
             <div class="view_more_container">
-                <a href="" class="view_more">
+                <a href="https://github.com/valour11?tab=repositories" class="view_more" target="_blank">
                     <p>View More</p>
-                    <img src="/scr/images/trending_flat_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <img src="/scr/images/trending_flat_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="view more arrow">
                 </a>
             </div>
         </section>
@@ -271,20 +283,39 @@
                     <img src="/scr/images/location_on_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="">
                     <h3>Abuja, Nigeria</h3>
                 </div>
+                <!-- Contact Form -->
+                <div class="contact_form">
+                    <form action="https://formspree.io/f/xjvowgqk" method="POST">
+                        <div>
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="_replyto" placeholder="Your Email" required>
+                        </div>
+                        <div>
+                            <textarea name="message" rows="5" cols="40" placeholder="Your Message" required></textarea>
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
                 <div class="line-through"></div>
                 <div class="socials">
-                    <a href=""><img src="/scr/images/icons8-facebook-48.png" alt="facebook profile"></a>
-                    <a href=""> <img src="/scr/images/icons8-twitter-bird-48.png" alt="twitter page"></a>
-                    <a href=""><img src="/scr/images/icons8-instagram-48.png" alt="instagram page"></a>
-                    <a href=""><img src="/scr/images/icons8-whatsapp-48.png" alt="whatsapp page"></a>
+                    <a href="https://web.facebook.com/gideon.abel.376" target="_blank"><img src="/scr/images/icons8-facebook-48.png" alt="facebook profile"></a>
+                    <a href="https://x.com/Gideon_Abel1"> <img src="/scr/images/icons8-twitter-bird-48.png" alt="twitter page"></a>
+                    <a href="#"><img src="/scr/images/icons8-instagram-48.png" alt="instagram page"></a>
+                    <a href="https://wa.me/2347043456740?text=Hello%20I%20got%20checked%20your%20portfolio%20and%20I%20would%20like%20to%20discuss%20a%20project.
+                    "><img src="/scr/images/icons8-whatsapp-48.png" alt="whatsapp page"></a>
                 </div>
+                
             </div>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        
+        <div class="section_header">
+                <p>Thanks for Exploring?</p>
+                <p>Looking forward to working with you!</p>
+                <small>&copy; 2025 Abel Gideon. All rights reserved.</small>
+            </div>
     </footer>
 </body>
 </html>
