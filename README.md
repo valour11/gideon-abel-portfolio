@@ -53,7 +53,7 @@ You will find some of my recent projects such as:
 
 ## 🌐 Hosted Live Demo
 
-> ✅ Visit the live portfolio: [https://your-hosted-url.com](https://your-hosted-url.com)  
+> ✅ Visit the live portfolio: [https://gideon-abel-portfolio.vercel.app/](https://gideon-abel-portfolio.vercel.app/)  
 
 
 ## 🖼️ Preview
@@ -61,7 +61,6 @@ You will find some of my recent projects such as:
 Here’s a sneak peek at what the portfolio looks like:
 
 ![Portfolio Screenshot](./scr/images/prjt3.png)  
-_(Consider adding more screenshots or a short walkthrough video!)_
 
 
 ## 📬 Contact Me
