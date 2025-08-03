@@ -60,7 +60,7 @@ You will find some of my recent projects such as:
 
 Here’s a sneak peek at what the portfolio looks like:
 
-![Portfolio Screenshot](./scr/images/prjt3.png)  
+![Portfolio Screenshot](./scr/images/Abel%20Gideon%20(1).png)  
 
 
 ## 📬 Contact Me
