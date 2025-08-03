@@ -12,6 +12,14 @@
     100% { transform: translateX(0); }
 }
 
+:root {
+    --primary-color: #484848;
+    --secondary-color: #6d6c6c;
+    --background-color: #fdfeff;
+    --border-radius-sm: 5px;
+    --border-radius-lg: 15px;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -24,7 +32,7 @@
 
 body{
     height: 100vh;
-    background-color: #fdfeff;
+    background-color: var(--background-color);
     font-family: poppins, sans-serif;
 }
 
@@ -60,12 +68,12 @@ img {
 }
 
 .nav_links ul a{
-    color: #484848;
+    color: var(--primary-color);
     padding-bottom: 5px;
 }
 
 .nav_links > ul > li a:hover{
-    color: #6d6c6c;
+    color: var(--secondary-color);
     transition: .5s ease;
     border-bottom: solid #6d6c6c 1px;
     border-bottom-left-radius: 4px;
@@ -106,7 +114,7 @@ header {
 
 .hero_details p{
     font-size: 1.7rem;
-    color: #484848;
+    color: var(--primary-color);
     line-height: 2rem;
 }
 
@@ -122,32 +130,32 @@ header {
 }
 
 .hero_btn_container a:hover{
-    color: #fdfeff;
+    color: var(--background-color);
 }
 
 .hero_btn_container button{
     padding: 1rem 2rem;
     margin-top: 1rem;
     border-radius: 5rem;
-    background-color: #fdfeff;
+    background-color: var(--background-color);
     cursor: pointer;
 }
 
 .hero_btn_container button:hover{
     background-color: #000000;
-    color: #fdfeff;
+    color: var(--background-color);
     transition: .5s ease;
 }
 
 .hero_img_container img {
-    box-shadow: 0 8px 32px 0 #3c3c7840, 0 1.5px 6px 0 rgba(0,0,0,0.18);
+    box-shadow: 0 8px 32px 0 #3c3c7840, 0 1.5px 6px 0 #0000002e;
     border-radius: 20px;
     transition: box-shadow 0.4s;
     width: 30rem;
     height: 30rem;
 }
 .hero_img_container img:hover {
-    box-shadow: 0 16px 48px 0 #3c3c7859, 0 3px 12px 0 rgba(0,0,0,0.22);
+    box-shadow: 0 16px 48px 0 #3c3c7859, 0 3px 12px 0 #00000038;
     transform: scale(1.1);
     transition: .5s ease-in-out;
     animation: shake-forward 0.5s;
@@ -198,7 +206,7 @@ header {
 
 .about_img img{
     width: 60rem;
-    box-shadow: -12px 0 24px -8px rgba(60, 60, 120, 0.18);
+    box-shadow: -12px 0 24px -8px #3c3c782e;
 }
 
 .details_cards{
@@ -215,7 +223,7 @@ header {
     padding-top: 20px;
     line-height: 1.7rem;
     font-size: 14px;
-    box-shadow: -12px 0 24px -8px rgba(60, 60, 120, 0.18);
+    box-shadow: -12px 0 24px -8px #3c3c782e;
 }
 
 .card_1 img,
@@ -248,13 +256,13 @@ header {
     height: 20rem;
     border-radius: 15px;
     padding: 2rem;
-    box-shadow: -12px 0 24px -8px rgba(60, 60, 120, 0.18);
+    box-shadow: -12px 0 24px -8px #3c3c782e;
 }
 
 .exp_card_1 h2, .exp_card_2 h2{
     text-align: center;
     margin: 1rem;
-    color: #484848;
+    color: var(--primary-color);
 }
 
 .stack_container{
@@ -298,7 +306,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: -12px 0 24px -8px rgba(60, 60, 120, 0.18);
+    box-shadow: -12px 0 24px -8px #3c3c782e;
 }
 
 .project_case{
@@ -307,7 +315,7 @@ header {
     height: 25rem;
     border: solid 1px #484848;
     border-radius: 15px;
-    box-shadow: -12px 0 24px -8px rgba(60, 60, 120, 0.18);
+    box-shadow: -12px 0 24px -8px #3c3c782e;
 }
 
 .project_case img{
@@ -333,11 +341,11 @@ header {
 
 .view_more_container a{
     text-decoration: none;
-    color: #484848;
+    color: var(--primary-color);
 }
 
 .view_more_container a:hover{
-    color: #000000;
+    color: var(--primary-color);
     transition: .5s ease-in-out;
     font-size: larger;
 }
@@ -370,7 +378,7 @@ header {
     padding: 2rem;
     text-align: center;
     margin-bottom: 2rem;
-    box-shadow: -12px 0 24px -8px rgba(60, 60, 120, 0.18);
+    box-shadow: -12px 0 24px -8px #3c3c782e;
 }
 
 .contact_form{
@@ -401,7 +409,7 @@ form button{
     border: none;
     border-radius: 5px;
     background-color: #000000;
-    color: #fdfeff;
+    color: var(--background-color);
     cursor: pointer;
     display: block;
     margin: 0 auto;
@@ -410,7 +418,7 @@ form button{
 .line-through {
     width: 90%;
     height: 2px;
-    background: #484848;
+    background: var(--primary-color);
     margin: 10px auto 0 auto;
     border-radius: 5px;
 }
@@ -420,7 +428,7 @@ form button{
     padding: 0 3rem;
     display: flex;
     gap: 10px;
-    background-color: #fdfeff;
+    background-color: var(--background-color);
 }
 
 .socials img{
